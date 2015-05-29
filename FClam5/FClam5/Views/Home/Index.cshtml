@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Welcome to the Clam</h1>
+    <p class="lead">Do not use the F Clam under the influence of alcohol.</p>
+</div>
+
+<p>Please enter password then select the action to perform <br />
+    @Html.TextBox("password") <br />
+    @Html.ActionLink("Submit", "Index", "Go")
+    @Html.ActionLink("Reports", "Index", "Reports")
+</p>

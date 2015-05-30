@@ -224,6 +224,8 @@
     <Content Include="Views\ErrorReports\Details.cshtml" />
     <Content Include="Views\ErrorReports\Edit.cshtml" />
     <Content Include="Views\ErrorReports\Index.cshtml" />
+    <Content Include="Views\Home\LoginFail.cshtml" />
+    <Content Include="Views\Home\DoStuff.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

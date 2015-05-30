@@ -10,7 +10,7 @@ namespace FClam5.Controllers
     public class GoController : Controller
     {
         // GET: Go
-        public ActionResult Index()
+        public ActionResult Index(String password)
         {
             return View();
         }

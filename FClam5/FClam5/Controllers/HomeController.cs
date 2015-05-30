@@ -8,9 +8,14 @@ namespace FClam5.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        
+        public ActionResult Index(String password)
         {
-            return View();
+            if (password == null)
+                return View();
+            if (password.Equals("blueberry"))
+                return View("DoStuff");
+            return View("LoginFail");
         }
 
         public ActionResult About()

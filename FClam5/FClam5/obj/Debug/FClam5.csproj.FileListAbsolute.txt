@@ -107,3 +107,4 @@ C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\bin\Microsoft.Owin.Secur
 C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\obj\Debug\FClam5.dll
 C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\obj\Debug\FClam5.pdb
+C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\obj\Debug\FClam5.csprojResolveAssemblyReference.cache

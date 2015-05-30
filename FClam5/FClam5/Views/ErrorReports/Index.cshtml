@@ -12,6 +12,12 @@
 <table class="table">
     <tr>
         <th>
+            @Html.DisplayNameFor(model => model.reportNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.errorNumber)
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.URL)
         </th>
         <th>
@@ -25,6 +31,12 @@
 
 @foreach (var item in Model) {
     <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.reportNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.errorNumber)
+        </td>
         <td>
             @Html.DisplayFor(modelItem => item.URL)
         </td>

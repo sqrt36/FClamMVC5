@@ -28,5 +28,7 @@ namespace FClam5.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<FClam5.Models.ApplicationUser> ApplicationUsers { get; set; }
     }
 }

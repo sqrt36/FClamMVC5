@@ -159,13 +159,15 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ApplicationUsersController.cs" />
+    <Compile Include="Controllers\ErrorReportsController.cs" />
     <Compile Include="Controllers\GoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ReportsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ErrorReport.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -211,6 +213,17 @@
     <Content Include="Views\Go\Helper11.cshtml" />
     <Content Include="Views\Reports\Index.cshtml" />
     <Content Include="Views\Go\Run.cshtml" />
+    <Content Include="Controllers\crawl.bat" />
+    <Content Include="Views\ApplicationUsers\Create.cshtml" />
+    <Content Include="Views\ApplicationUsers\Delete.cshtml" />
+    <Content Include="Views\ApplicationUsers\Details.cshtml" />
+    <Content Include="Views\ApplicationUsers\Edit.cshtml" />
+    <Content Include="Views\ApplicationUsers\Index.cshtml" />
+    <Content Include="Views\ErrorReports\Create.cshtml" />
+    <Content Include="Views\ErrorReports\Delete.cshtml" />
+    <Content Include="Views\ErrorReports\Details.cshtml" />
+    <Content Include="Views\ErrorReports\Edit.cshtml" />
+    <Content Include="Views\ErrorReports\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

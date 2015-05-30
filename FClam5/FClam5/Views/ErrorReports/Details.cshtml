@@ -1,0 +1,42 @@
+﻿@model FClam5.Models.ErrorReport
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ErrorReport</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.URL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.URL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.parentURL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.parentURL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.errorType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.errorType)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -107,4 +107,11 @@ C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\bin\Microsoft.Owin.Secur
 C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\obj\Debug\FClam5.dll
 C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\obj\Debug\FClam5.pdb
+C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\obj\Debug\FClam5.csproj.GenerateResource.Cache
+C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\obj\Debug\FClam5.Migrations.Initial3.resources
+C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\obj\Debug\FClam5.Migrations.Initial4.resources
+C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\bin\HtmlAgilityPack.dll
+C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\bin\HtmlAgilityPack.pdb
+C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\bin\HtmlAgilityPack.xml
 C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\obj\Debug\FClam5.csprojResolveAssemblyReference.cache
+C:\Users\Vance\Documents\GitHub\FClamMVC5\FClam5\FClam5\obj\Debug\FClam5.Migrations.Crawl.resources

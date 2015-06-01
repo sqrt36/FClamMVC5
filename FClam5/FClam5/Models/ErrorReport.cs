@@ -7,12 +7,10 @@ namespace FClam5.Models
 {
     public class ErrorReport
     {
-        [Key]
-        [Column(Order=1)]
-        public int errorNumber { get; set; }
-        [Key]
-        [Column(Order=2)]
+        [Key][Column(Order=0)]
         public int reportNumber { get; set; }
+        [Key][Column(Order=1)]
+        public int errorNumber { get; set; }
         public String URL { get; set; }
         public String parentURL { get; set; }
         public String errorType { get; set; }

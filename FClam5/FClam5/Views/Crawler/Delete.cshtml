@@ -1,0 +1,56 @@
+﻿@model FClam5.Models.ErrorReport
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>ErrorReport</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.reportNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.reportNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.URL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.URL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.parentURL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.parentURL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.errorType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.errorType)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
